@@ -1,11 +1,8 @@
 body {
     margin: 0;
-    font-family: 'Montaser Arabic', sans-serif;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
     background: #f6eeda;
-}
-
-div{
-color:#e41010;
 }
 
 header {
@@ -13,13 +10,12 @@ header {
     padding: 24px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    
+    justify-content: center;
 }
 
 .logo {
     height: 50px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 nav a {
@@ -27,24 +23,6 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-
-}
-
-nav {
-    text-align: center;
-}
-
-
-nav a:hover {
-    color:#e41010;
-    background-color: yellow;
-    border-radius: 20px;
-    transition: 2s;
-}
-
-.logo {
-    font-size: 24px;
-    margin-right: 20px;
 }
 
 .area-login {
@@ -55,40 +33,142 @@ nav a:hover {
 }
 
 .login-box {
-    width: 260px;
-    padding: 20px;
-    background: white;
-    border: 3px solid red;
-    border-radius: 10px;
+    width: 350px;
+    background: #f6eeda;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid #e41010;
+}
+
+.titulo-box {
+    background: #e41010;
+    padding: 18px 0;
     text-align: center;
 }
 
-.login-box h2 {
-    margin: 0 0 10px;
-}
-
-input {
-    width: 90%;
-    padding: 7px;
-    margin-bottom: 12px;
-    border-radius: 8px; 
-}
-
-button {
-    width: 95%;
-    padding: 7px;
-    background: red;
+.titulo-box h2 {
     color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 8px; 
+    font-size: 26px;
+    margin: 0;
 }
 
-button:hover {
-    opacity: 0.8;
+form {
+    padding: 22px;
+}
+
+form label {
+    color: #b10303;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 18px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    font-size: 15px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #e41010;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .cadastro-texto {
-    margin-top: 8px;
-    font-size: 13px;
+    text-align: center;
+    margin-top: 14px;
+    color: black;
+    font-size: 14px;
 }
+
+.cadastro-texto a {
+    color: #e41010;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#img {
+    width: 42vh;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 60px 60px;
+    border: 6px solid #e41010;
+}
+
+
+.conteudo2{
+    display:flex;
+    margin: 60px 60px;
+    align-items: center; 
+}
+
+.conteudo{
+    display:flex;
+    margin: 60px 60px;
+    align-items: center; 
+}
+
+.divider{
+    height: 2px;
+    background: #e41010;
+    margin: 4rem 4rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: 100px auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  padding: 8px;
+  border-radius: 50%;
+  align-items: center;
+
+}
+
+.nome {
+  margin-top: 10px;
+  font-weight: 600;
+  color:#b10303
+}
+
+.arroba {
+  font-size: 14px;
+  color:#b10303
+}
+ strong{
+    color: #b10303;
+ }
