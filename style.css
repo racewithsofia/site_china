@@ -138,10 +138,9 @@ form button {
 
 .container {
   display: flex;
-  gap: 40px;
+  gap: 60px;
   justify-content: center;
-  margin: 100px auto;
-  flex-wrap: wrap;
+  margin: 200px;
   align-items: center;
 }
 
